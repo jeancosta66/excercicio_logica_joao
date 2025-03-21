@@ -1,5 +1,7 @@
 # Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo)
-if (-12):
-    print("Esse valor é negativo:",-12)
-else: 
-    print("Esse valor é positivo")
+print("Digiter um numero inteiro: ")
+numero = int(input())
+if numero >= 0:
+    print("Esse numero é positivo!")
+else:
+    print("Esse numero é negativo!")
