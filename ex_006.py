@@ -6,8 +6,7 @@ Cadastro de Clientes
 3 - Exclui
 4 - Consulta
 
-print("Cadastro de um cliente: ")
-cliente = input()
+cliente = input("Insirar seu nome: ")
 print("Digite um numero entre 0 até 4")
 numero = int(input())
 if  numero == 0:
