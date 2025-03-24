@@ -12,4 +12,4 @@ notar3 = int(input("Digite a terceira notar (inteiro): "))
 notar4 = int(input("Digite a quarta notar (inteiro): "))
 
 s = (notar1 + notar2 + notar3 + notar4)/4
-print(f'A média aritimética dos valores {notar1}, {notar2}, {notar3},{notar4} vale: {s}')
+print(f'A média aritimética dos valores {notar1}, {notar2}, {notar3},{notar4} vale: {s}') #f: serve para fazer uma interpolação de strings
